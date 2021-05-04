@@ -1,4 +1,8 @@
 
+html {
+    background-color:#1e3888ff;
+}
+
 body {
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
     /* CSS HEX */
