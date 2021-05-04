@@ -1,17 +1,20 @@
 
 body {
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
-    /* --color1: hsla(349, 69%, 76%, 1);
-    --color2: hsla(207, 67%, 44%, 1);
-    --color3: hsla(200, 61%, 56%, 1);
-    --color4: hsla(187, 41%, 94%, 1);
-    --color5: hsla(170, 28%, 95%, 1); */
+    /* CSS HEX */
+    --dark-cornflower-blue: #1e3888ff;
+    --pacific-blue: #47a8bdff;
+    --corn: #f5e663ff;
+    --rajah: #ffad69ff;
+    --big-dip-oruby: #9c3848ff;
 
-    /* --color1: hsla(45, 86%, 83%, 1);
-    --color2: hsla(135, 65%, 98%, 1);
-    --color3: hsla(315, 37%, 86%, 1);
-    --color4: hsla(45, 73%, 98%, 1);
-    --color5: hsla(224, 40%, 79%, 1); */
+    /* CSS HSL */
+    --dark-cornflower-blue: hsla(225, 64%, 33%, 1);
+    --pacific-blue: hsla(191, 47%, 51%, 1);
+    --corn: hsla(54, 88%, 67%, 1);
+    --rajah: hsla(27, 100%, 71%, 1);
+    --big-dip-oruby: hsla(350, 47%, 42%, 1);
+
     
     --header-height: 80px;
     --shadow: 0px 10px 20px -12px rgba(0,0,0,0.45);
@@ -28,6 +31,7 @@ main {
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
+    background-color: var(--dark-cornflower-blue);
 }
 
 section {
@@ -37,6 +41,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     align-items: center;
     padding-top: var(--gutter);
     padding-bottom: var(--gutter);
@@ -45,12 +50,38 @@ section {
     border: solid 2px var(--color1);
 }
 
+
 header {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: var(--color3);
     height: var(--header-height);
     box-shadow: var(--shadow);
+    background-color: var(--pacific-blue);
+    border-bottom-color: yellow;
+}
+
+#moth-pic {
+    border-radius: 50px 50px 50px 50px;
+
+}
+
+
+#moth-content1, #moth-content2 {
+    background-color: var(--corn);
+    border-radius: 50px 50px 50px 50px;    
+}
+
+#head1, #head2 {
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+
+#user-results {
+    font-weight: 200px;
 }
 
 footer {
