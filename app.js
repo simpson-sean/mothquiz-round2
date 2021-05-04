@@ -32,15 +32,15 @@ quizButton.addEventListener('click', () => {
     //Asks Questions and Collects Answers
     const userAnswer1 = prompt('Is a moth the same as a butterfly?');
         if (!countsAsYes(userAnswer1)) {
-            userScore = userScore++;
+            userScore = userScore + 1;
         }
     const userAnswer2 = prompt('Are moths nocturnal?');
         if(countsAsYes(userAnswer2)) {
-            userScore = userScore++;
+            userScore = userScore + 1;
         }
     const userAnswer3 = prompt('Are moths like spiders?');
         if(!countsAsYes(userAnswer3)) {
-            userScore = userScore++;
+            userScore = userScore + 1;
         }
     
     
